@@ -3,64 +3,59 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-h1 {
+.top-section-h1{
     color: antiquewhite;
     font-size: 50px;
 }
-
-.welcome-name {
+.tanim-span {
     color: #ce1111;
 }
-
-section {
+.top-section{
     display: flex;
     margin-bottom: 100px;
+    background-color: black;
 }
-
-.header-banar {
+.top-adjust {
     width: 50%;
     padding: 5%;
 }
-
-.header-banar img {
+.top-section-img {
     width: 80%;
 }
-
-.btn {
+.top-section-btn {
     text-decoration: none;
     background-image: linear-gradient(rgb(220, 1, 1), rgb(131, 5, 5));
     color: antiquewhite;
     padding: 10px 40px;
     border-radius: 5px;
-
 }
-
-.top-banar {
-    background-color: black;
-}
-
-.medal-section {
+.middle-section {
     display: flex;
 }
 
 .dream {
     color: black;
+    font-size: 50px;
 }
 
-.medal img {
+.middle-adjust {
     width: 50%;
 }
-
-.medal {
-    width: 50%;
+.middle-section-img{
+    margin-left: 9%;
 }
 
-.btn-facebook {
+.middle-section-btn {
     text-decoration: none;
     background-image: linear-gradient(black, black);
     color: antiquewhite;
     padding: 10px 40px;
     font-size: 25px;
     border-radius: 6px;
+}
+.experience-container {
+    display: flex;
+}
+.experience-adjust{
+    width: 50%;
 }
